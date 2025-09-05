@@ -3,7 +3,6 @@ import Section from "./components/Section.jsx";
 import HelpfulResource from "./components/HelpfulResource.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 
-
 import Footer from "./components/Footer.jsx";
 
 function App() {
@@ -39,10 +38,10 @@ function App() {
           link="https://react.dev/learn"
         />
       </Section>
-      <Section title="About Me">
+      <Section>
         <AboutMe />
       </Section>
-      <Section title="Footer">
+      <Section>
         <Footer />
       </Section>
       
