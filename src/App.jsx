@@ -3,6 +3,9 @@ import Section from "./components/Section.jsx";
 import HelpfulResource from "./components/HelpfulResource.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 
+
+import Footer from "./components/Footer.jsx";
+
 function App() {
   return (
     <div className="app">
@@ -39,6 +42,10 @@ function App() {
       <Section title="About Me">
         <AboutMe />
       </Section>
+      <Section title="Footer">
+        <Footer />
+      </Section>
+      
     </div>
   );
 }
