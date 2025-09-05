@@ -1,4 +1,3 @@
-import React from "react";
 import dayImg from "../assets/day.svg";
 import eveningImg from "../assets/evening.svg";
 import nightImg from "../assets/night.svg";

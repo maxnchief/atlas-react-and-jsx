@@ -1,6 +1,6 @@
-
 import Header from "./components/Header.jsx";
 import Section from "./components/Section.jsx";
+import HelpfulResource from "./components/HelpfulResource.jsx";
 
 function App() {
   return (
@@ -19,6 +19,21 @@ function App() {
           <li>Declarative UI makes code more predictable and easier to debug</li>
           <li>Seamless integration with other libraries and frameworks</li>
         </ul>
+      </Section>
+
+      <Section title="Helpful resources">
+        <HelpfulResource
+          label="React Documentation"
+          link="https://react.dev/"
+        />
+        <HelpfulResource
+          label="React JSX Guide"
+          link="https://react.dev/learn/writing-markup-with-jsx"
+        />
+        <HelpfulResource
+          label="React Quick Start Guide"
+          link="https://react.dev/learn"
+        />
       </Section>
     </div>
   );
